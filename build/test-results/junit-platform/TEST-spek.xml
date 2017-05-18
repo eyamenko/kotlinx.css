@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Spek" tests="2" skipped="0" failures="0" errors="0" time="0.008" hostname="cv-598tj32" timestamp="2017-05-18T12:49:29">
+<testsuite name="Spek" tests="3" skipped="0" failures="0" errors="0" time="0" hostname="cv-598tj32" timestamp="2017-05-18T16:55:09">
 <properties>
 <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
 <property name="file.encoding" value="windows-1252"/>
@@ -57,7 +57,7 @@
 <property name="user.timezone" value="Australia/Sydney"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="it should construct a simple css" classname="given a css builder" time="0.005">
+<testcase name="it should construct a simple css" classname="given a css builder" time="0">
 <system-out><![CDATA[
 unique-id: [engine:spek]/[spec:CssBuilderSpec]/[group:given a css builder]/[test:it should construct a simple css]
 display-name: it should construct a simple css
@@ -67,6 +67,12 @@ display-name: it should construct a simple css
 <system-out><![CDATA[
 unique-id: [engine:spek]/[spec:CssBuilderSpec]/[group:given a css builder]/[test:it should construct css with nested elements]
 display-name: it should construct css with nested elements
+]]></system-out>
+</testcase>
+<testcase name="it should construct css with nested elements and advanced properties" classname="given a css builder" time="0">
+<system-out><![CDATA[
+unique-id: [engine:spek]/[spec:CssBuilderSpec]/[group:given a css builder]/[test:it should construct css with nested elements and advanced properties]
+display-name: it should construct css with nested elements and advanced properties
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[

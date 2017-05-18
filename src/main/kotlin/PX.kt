@@ -3,6 +3,10 @@
  */
 
 class PX(val px: Int) {
+    infix operator fun plus(another: PX): PX {
+        return PX(px + another.px)
+    }
+
     override fun toString(): String {
         return px.toString() + "px"
     }
