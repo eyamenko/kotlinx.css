@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Spek" tests="2" skipped="0" failures="0" errors="0" time="0.008" hostname="cv-598tj32" timestamp="2017-05-18T12:41:09">
+<testsuite name="Spek" tests="2" skipped="0" failures="0" errors="0" time="0.008" hostname="cv-598tj32" timestamp="2017-05-18T12:49:29">
 <properties>
 <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
 <property name="file.encoding" value="windows-1252"/>
